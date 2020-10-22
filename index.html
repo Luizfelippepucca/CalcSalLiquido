@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+   
+    <title>Viasoft</title>
+</head>
+<body>
+    <header>
+        <h1>Cálculo de Salário Liquido</h1>
+    </header>
+    
+    <section>
+        <form>
+            <fieldset>
+                <label> Informe seu salário:</label>
+                <input type="text" placeholder="Salario Bruto" minlength="4" maxlength="10"/>
+                <button type="button" >Calcular</button>
+            </fieldset>
+        </form>
+    </section>
+    <div class="fecharDicas">
+        <svg    height="20" viewBox="0 0 413.348 413.348" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m413.348 24.354-24.354-24.354-182.32 182.32-182.32-182.32-24.354 24.354 182.32 182.32-182.32 182.32 24.354 24.354 182.32-182.32 182.32 182.32 24.354-24.354-182.32-182.32z"/>
+        </svg>
+        <h4 >Informe valores numéricos</h4>
+        <h4 >No lugar de virgula use ponto.</h4>
+        <h4 >Ponto somente na casa antes dos centavos</h4>
+        <h4 >Ex:2395.95</h4>
+        <h4 >No mínimo 4 caracteres.</h4>
+        <h4 >Ex:300.00 = 300 reais!</h4>
+    </div>
+    <div class="headerTable">Empregado CLT</div>
+    <section class="table1">
+        
+     <table class="tabelaEmpregado">
+        
+         <tr>
+             <th >Liquidez</th>
+             <th>INSS</th>
+             <th>IRPF</th>
+         </tr>
+         <tr>
+             <td id="empregadoLiq"></td>
+             <td id="empregadoInss"></td>
+             <td id="empregadoIrpf"></td>
+         </tr>
+         
+     </table>
+     <div class="imagemEmpregado"><img src="img/empregado.png"></div>
+    </section>
+    <div class="headerTable"> Emp.Doméstico (clt)</div>
+    <section class="table1">
+    
+     <table class="tabelaEmpregado">
+        
+         <tr>
+             <th >Liquidez</th>
+             <th>INSS</th>
+             <th>IRPF</th>
+         </tr>
+         <tr>
+            <td id="empregadoLiq1"></td>
+            <td id="empregadoInss1"></td>
+            <td id="empregadoIrpf1"></td>
+         </tr>
+         
+     </table>
+     <div class="imagemEmpregado"><img src="img/empregadoDom.png"></div>
+    </section>
+    <div class="headerTable">trabalhador avulso</div>
+    <section class="table1">
+        
+     <table class="tabelaEmpregado">
+        
+         <tr>
+             <th >Liquidez</th>
+             <th>INSS</th>
+             <th>IRPF</th>
+         </tr>
+         <tr>
+            <td id="empregadoLiq2"></td>
+            <td id="empregadoInss2"></td>
+            <td id="empregadoIrpf2"></td>
+         </tr>
+         
+     </table>
+     <div class="imagemEmpregado"><img src="img/empregadoInd.png"></div>
+    </section>
+    
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

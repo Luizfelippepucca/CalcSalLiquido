@@ -1,0 +1,411 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    width: 100vw;
+    height: 10vh;
+    background-color: darkorchid;
+    color: rgb(247, 247, 247);
+    font-size: 5vw;
+    text-align: center;
+    line-height: 9vh;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    text-shadow: black 2px 4px 10px;
+    font-weight: bold;
+}
+.fecharDicas{
+    width: 100vw;
+    background-color: rgb(252, 252, 252);
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.3s all;
+   
+    
+}
+svg{
+    width: 15px;
+    position: absolute;
+    top: 23%;
+    left: 90%;
+    fill: rgb(168, 200, 191);
+    display: none;
+}
+
+.fecharBtnSvg{
+    display: block;
+}
+.abrirDicas{
+    transition: 0.3s all;
+    height: 250px;
+    
+   
+  
+    
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkorchid;
+    transition: 1s all;
+    display: none;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.mostrarItem{
+    padding-top: 10px;
+    display: block;
+}
+
+
+
+form{
+    width: 100vw;
+    height: 10vh;
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset{
+    width: 100vw;
+    height: 13vh;
+    background-color: darkorchid;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+fieldset label{
+    font-size: 4vw;
+    color: rgb(247, 247, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: initial;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+fieldset input{
+    width: 58vw;
+    height: 4vh;
+    
+    border-radius: 6px;
+    border: 0px;
+    text-align: center;
+    font-size: 4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+fieldset input:focus{
+    border-bottom: darkorange 2px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+
+fieldset input::placeholder{
+    font-size: 3vw;
+    letter-spacing: 0.5px;
+    text-align: center;
+   
+}
+button{
+    width: 25vw;
+    height: 3.2vh;
+    border-radius: 6px;
+    font-size: 3.5vw;
+    border: 0;
+    background-color: blanchedalmond;
+    color: #f3ececea;
+    text-shadow:black 2px 2px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s all;
+    padding: 5px;
+    font-family: cursive;
+    line-height: 10px;
+   
+    
+}
+button:hover{
+   
+    animation:pulse 0.8s ease infinite;
+   
+    font-style: normal;
+  
+    
+}
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(247, 247, 247,1);
+       
+        text-shadow:black 2px 2px 8px;
+    }
+
+    10%{
+        background-color:darkorchid;
+    }
+    100%{
+        box-shadow: 0 0 0 20px rgba(255, 140,0, 0.1);
+        color:rgb(150, 22, 150,0);
+       
+        text-shadow:none;
+        
+    }
+}
+.table1{
+    
+    height: 300px;
+}
+.table1 img{
+    
+    width: 250px;
+   
+}
+.imagemEmpregado{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.headerTable{
+    border-top: white 1px solid;
+    background-color: darkorchid;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 5vw;
+    font-style: italic;
+    text-shadow: black 2px 4px 10px;
+    margin-top: 12px;
+    
+}
+
+.tabelaEmpregado{
+    margin-top: 10px;
+    width: 100vw;
+    height: 10vh;
+   
+}
+
+.tabelaEmpregado tr{
+    background-color: lawngreen;
+    width: 100vw;
+}
+.tabelaEmpregado tr th{
+    background-color: rgb(247, 247, 247);;
+    color: darkorchid;
+    border: darkorchid 1px solid;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+.tabelaEmpregado tr td{
+    height: 30px;
+    background-color: rgb(247, 247, 247);
+    color: rgb(247, 247, 247);
+    border: darkorchid 1px solid;
+    border-radius: 2px;
+    background-color: darkorchid;
+    border: rgb(29, 28, 28) 1px solid;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width:768px){
+    h1{
+        font-size: 4vw;
+        height: 10vh;
+    }
+    h4{
+       
+       
+        display: none;
+        font-size: 20px;
+        
+    }
+    .abrirDicas{
+        margin-top: 10px;
+    }
+    
+  section.table1{
+      height: 450px;
+  }
+  .headerTable{
+      margin-top: 26px;
+      font-size: 3vh;
+  }
+  
+  
+  .tabelaEmpregado tr td{
+      font-size: 4vw;
+  }
+  div.imagemEmpregado{
+      width: 320px;
+      height: auto;
+  }
+  div.imagemEmpregado img{
+      width: 370px;
+  }
+  button{
+      height: 3.4vh;
+      font-size: 2.2vw;
+  }
+  fieldset{
+      height: 15vh;
+  }
+  fieldset input{
+      width: 30vw;
+      height: 3.5vh;
+      line-height: 10px;
+      font-size: 3.2vw;
+  }
+  fieldset label{
+    font-size: 3vw;
+}
+svg{
+    width: 28px;
+    position: absolute;
+    top: 23%;
+    left: 90%;
+    fill: rgb(168, 200, 191);
+    display: none;
+}
+
+}
+
+@media only screen and (min-width:1024px){
+    fieldset{
+        flex-direction: row;
+    }
+    fieldset button{
+         height: 4.4vh;
+    }
+    fieldset input{
+        height: 4.4vh;
+        
+   }
+   section.table1{
+       height: 500px;
+   }
+    fieldset input::placeholder{
+        font-size: 2.6vh;
+       
+    }
+    div.imagemEmpregado img{
+        width: 490px;
+    }
+    div.imagemEmpregado{
+        width: 478px;
+        margin-top: 20px;
+    }
+    .tabelaEmpregado tr th{
+        font-size: 2.8vw;
+    }
+    .tabelaEmpregado tr td{
+        font-size: 2.8vw;
+    }
+    .abrirDicas{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:1440px){
+    fieldset button{
+        height: 4.6vh;
+        font-size: 28px;
+   }
+   fieldset input{
+    height: 4.6vh;
+   
+}
+h1{
+   
+    font-size: 40px;
+}
+h4{
+       
+       
+    display: none;
+    font-size: 28px;
+    
+}
+
+.abrirDicas{
+    margin-top: 27px;
+}
+section.table1{
+ 
+    height: 800px;
+}
+div.imagemEmpregado img{
+    width: 780px;
+    margin-top: 10px;
+    
+    
+}
+div.imagemEmpregado{
+    display: flex;
+    width: 1250px;
+    height: auto;
+   
+    
+    align-items: center;
+    justify-content: center;
+}
+.tabelaEmpregado tr th{
+    font-size: 2.5vw;
+}
+.tabelaEmpregado tr td{
+    font-size: 2.5vw;
+}
+
+}
+
+@media only screen and (min-width:1840px){
+
+    h1{
+        width: 99.1vw;
+    }
+    form{
+        width: 99.1vw;
+    }
+    form fieldset{
+        width: 99.1vw;
+    }
+    .headerTable{
+        width: 99.1vw;
+    }
+    .tabelaEmpregado{
+        width: 99.1vw;
+    }
+    .fecharDicas{
+        width: 99.1vw;
+    }
+
+}
+
+
+
+
