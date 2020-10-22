@@ -10,7 +10,7 @@ Projeto que calcula o salário liquido do trabalhador CLT.
 
 ## Importante.
 Para me basear nos calculos usei as tabelas oficias destes links abaixo:
-https://www.inss.gov.br/servicos-do-inss/calculo-da-guia-da-previdencia-social-gps/tabela-de-contribuicao-mensal/
+https://www.inss.gov.br/servicos-do-inss/calculo-da-guia-da-previdencia-social-gps/tabela-de-contribuicao-mensal/<br>
 https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos/irpf-imposto-de-renda-pessoa-fisica
 
 ### Tabela para Empregado, Empregado Doméstico e Trabalhador Avulso a partir de 1º de março 2020(INSS).
