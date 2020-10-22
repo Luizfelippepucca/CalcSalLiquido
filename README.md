@@ -9,7 +9,7 @@ Projeto que calcula o salário liquido do trabalhador CLT.
 ####Sem auxilios de bibliotecas ou framweworks.
 
 ## Importante.
-Para me basear nos calculos usei as tabelas oficias destes links abaixo:
+Para me basear nos calculos usei as tabelas oficias destes links abaixo:</br>
 https://www.inss.gov.br/servicos-do-inss/calculo-da-guia-da-previdencia-social-gps/tabela-de-contribuicao-mensal/<br>
 https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos/irpf-imposto-de-renda-pessoa-fisica
 
@@ -19,7 +19,7 @@ A partir do mês de abril do ano-calendário de 2015.
 Parcela a deduzir do IRPF (R$)
 
 ##Estas tabelas utilizam valores até 6.101,06 para se basear no que vai ser deduzido do imposto de renda.
-Mas o projeto aceita valores maiores, porém depois desse valor acima não é tão preciso, pois  imposto de renda eesta fixado no valor a deduzir e não
+Mas o projeto aceita valores maiores, porém depois desse valor acima não é tão preciso, pois  imposto de renda eesta fixado no valor a deduzir e não</br>
 Em 27,5%.Este caso citado é para trabalhadores clt que ganham acima dessa faixa salarial de 6.101,06.
 
 ##Como hoje em dia a grande maioria é resgitrado como PJ, não senti a necessidade de calcular a aliquota de 27,5% para empregados clt que ganham acima do valor citado acima.
